@@ -124,7 +124,7 @@ def server():
 #Copyright
 
 def copystuffs():
-    print("Copyright NerveRift Corporation 2019")
+    print("Copyright NerveRift Corporation 2019 - 2020")
 
 
 #Help
