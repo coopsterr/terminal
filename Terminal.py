@@ -174,7 +174,7 @@ while isOn == False:
     if function == 'copyright':
         copystuffs()
     if function == 'help':
-        helps(function)
+        helps()
     if function == '' or function == ' ':
         print("\n")
     if (function.split()[0]) == "echo":
