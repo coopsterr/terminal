@@ -124,7 +124,7 @@ def server():
 #Copyright
 
 def copystuffs():
-    print("Copyright NerveRift Corporation 2019")
+    print("Copyright NerveRift Corporation 2019 - 2021")
 
 
 #Help
@@ -132,6 +132,13 @@ def copystuffs():
 def helps():
     print("\nFull Documentation And Help Can Be Found At: github.com/FederalBR/terminal\n")
 #Terminal
+
+def echo(input):
+    for y in range(len(input.split()) - 1):
+	    print(input.split()[y+1], end=" ", flush=True)
+    print("\n")
+
+
 
 while isOn == False:
     if startup == True:
@@ -168,6 +175,10 @@ while isOn == False:
         copystuffs()
     if function == 'help':
         helps()
+    if function == '' or function == ' ':
+        print("\n")
+    if (function.split()[0]) == "echo":
+        echo(function)
     else:
         print("\n\tInvalid Function\n")
         
