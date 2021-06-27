@@ -15,3 +15,4 @@ Terminal Created In Python And Designed For Windows
 - serve - hosts a server
 - copyright - shows copyright marks
 - help - shows help
+- echo - echo given text
